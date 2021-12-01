@@ -1,5 +1,40 @@
-.content {}
+@font-face {
+    font-family: 'inter-regular';
+    src: url('../vendor/Inter-Regular.woff2');
+}
 
+@font-face {
+    font-family: 'inter-black';
+    src: url('../russian-travel/vendor/Inter-Black.woff2');
+}
 
+.intro {
+    max-width: 1280px;
+    margin: 92px auto 0;
+}
 
+.intro__title {
+    margin: 0;
+    font-size: 54px;
+    line-height: 58px;
+    max-width: 900px;
+}
 
+.intro__description {
+    margin: 40px 0 0 0;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 900px;
+}
+
+.intro__list {
+    max-width: 900px;
+    margin: 33px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.intro__item {
+    font-size: 12px;
+    line-height: 18px;
+}
