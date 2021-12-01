@@ -1,0 +1,11 @@
+.cover {
+    display: block;
+    width: 1184px;
+    margin: 92px auto 0;
+    position: relative;
+    background: url(../../images/__background.jpg);
+    background-position: center;
+    background-size: cover;
+    text-decoration: none;
+    color: #fff;
+}

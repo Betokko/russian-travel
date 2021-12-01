@@ -1,11 +1,10 @@
-.hero__tile {
+.headlines__title {
     font-family: 'inter-black';
     align-self: center;
-    max-width: 720px;
     text-align: center;
-    margin: 0;
-    padding-top: 56px;
-    font-weight: 900;
+    margin: 0 auto;
     font-size: 96px;
     line-height: 100px;
+    max-width: 720px;
+    padding-top: 56px;
 }
