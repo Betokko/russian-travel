@@ -1,0 +1,12 @@
+.header__languages-link {
+    color: #fff;
+    text-decoration: none;
+    transition: opacity .2s;
+    margin-left: 18px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.header__languages-link:hover {
+    opacity: 0.8;
+}
