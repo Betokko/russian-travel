@@ -1,0 +1,21 @@
+.places__url {
+    grid-area: url;
+    color: #fff;
+    transition: color .2s;
+    position: relative;
+    align-self: end;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.places__url::before {
+    content: 'URL';
+    color: #aaa;
+    position: absolute;
+    top: calc(-22px + -12px);
+    pointer-events: none;
+}
+
+.places__url:hover {
+    color: rgba(255, 255, 255, .8);
+}

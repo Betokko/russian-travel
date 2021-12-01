@@ -1,0 +1,4 @@
+.photo-grid {
+    max-width: calc(1280px - (48px * 2));
+    margin: 92px auto 0;
+}
