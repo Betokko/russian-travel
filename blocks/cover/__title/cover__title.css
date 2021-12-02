@@ -7,3 +7,10 @@
     font-family: 'inter-black';
     position: relative;
 }
+
+@media (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

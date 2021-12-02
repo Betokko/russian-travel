@@ -9,6 +9,7 @@
 }
 
 .places__url::before {
+    font-size: 12px;
     content: 'URL';
     color: #aaa;
     position: absolute;
@@ -18,4 +19,10 @@
 
 .places__url:hover {
     color: rgba(255, 255, 255, .8);
+}
+
+@media (max-width: 767px) {
+    .places__url {
+        margin-top: 24px;
+    }
 }

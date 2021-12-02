@@ -1,4 +1,4 @@
-.headlines__subtitle {
+.hero__subtitle {
     margin: 0 auto;
     padding-top: 32px;
     align-self: center;
@@ -10,7 +10,8 @@
 }
 
 @media (max-width: 767px) {
-    .headlines__subtitle {
+    .hero__subtitle {
+        width: calc(100% - 32px);
         padding-top: 16px;
         font-size: 16px;
         line-height: 20px;

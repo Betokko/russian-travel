@@ -9,3 +9,14 @@
         width: 440px;
     }
 }
+
+@media (max-width: 1023px) {
+    .places__image {
+        width: 340px;
+    }
+}
+@media (max-width: 1023px) {
+    .places__image {
+        width: 100%;
+    }
+}
