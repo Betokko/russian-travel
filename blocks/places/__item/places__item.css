@@ -8,3 +8,9 @@
         "image descr";
     margin-top: 80px;
 }
+
+@media (max-width: 1280px) {
+    .places__item {
+        grid-template-columns: 440px 1fr;
+    }
+}

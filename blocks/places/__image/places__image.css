@@ -3,3 +3,9 @@
     display: block;
     width: 460px;
 }
+
+@media (max-width: 1280px) {
+    .places__image {
+        width: 440px;
+    }
+}
