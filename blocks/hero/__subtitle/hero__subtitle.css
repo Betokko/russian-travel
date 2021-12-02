@@ -8,3 +8,11 @@
     font-size: 30px;
     line-height: 36px;
 }
+
+@media (max-width: 767px) {
+    .headlines__subtitle {
+        padding-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
