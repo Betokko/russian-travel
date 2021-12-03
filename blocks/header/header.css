@@ -16,7 +16,7 @@
 
 @media (max-width: 1023px) {
     .header {
-        width: calc(768px - 48px);
+        width: calc(100% - 48px);
     }
 }
 
