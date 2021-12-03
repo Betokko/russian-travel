@@ -3,4 +3,10 @@
     color: #fff;
     margin: 0 auto;
     font-family: 'inter-regular', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
