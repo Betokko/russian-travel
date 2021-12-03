@@ -8,6 +8,15 @@
 }
 
 @font-face {
+    font-family: "inter-bold";
+    font-style: normal;
+    font-weight: 700;
+    src:
+        url('../vendor/Inter-ExtraBold.woff2') format("woff2"),
+        url('../vendor/Inter-ExtraBold.woff') format("woff");
+}
+
+@font-face {
     font-family: "inter-black";
     font-style: normal;
     font-weight: 900;

@@ -1,4 +1,7 @@
 .header__languages {
     list-style-type: none;
     display: flex;
+    align-self: flex-end;
+    margin: 0 0 5px;
+    padding: 0;
 }
