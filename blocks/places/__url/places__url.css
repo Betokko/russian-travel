@@ -1,28 +1,10 @@
 .places__url {
     grid-area: url;
-    color: #fff;
-    transition: color .2s;
-    position: relative;
     align-self: end;
-    font-size: 18px;
-    line-height: 22px;
-}
-
-.places__url::before {
     font-size: 12px;
-    content: 'URL';
+    line-height: 12px;
     color: #aaa;
-    position: absolute;
-    top: calc(-22px + -4px);
-    pointer-events: none;
+    max-height: 46px;
 }
 
-.places__url:hover {
-    color: rgba(255, 255, 255, .8);
-}
 
-@media (max-width: 767px) {
-    .places__url {
-        margin-top: 24px;
-    }
-}
