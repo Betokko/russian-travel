@@ -2,7 +2,8 @@
     background-color: #2A2C2F;
     color: #fff;
     margin: 0 auto;
-    font-family: 'inter-regular', sans-serif;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
