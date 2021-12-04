@@ -15,8 +15,10 @@
         width: 340px;
     }
 }
+
 @media (max-width: 1023px) {
     .places__image {
-        width: 100%;
+        width: calc(100% + 32px);
+        margin: 0 -16px;
     }
 }
