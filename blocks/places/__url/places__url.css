@@ -1,7 +1,5 @@
 .places__url {
     grid-area: url;
     align-self: end;
-
+    max-height: 46px;
 }
-
-
