@@ -19,7 +19,7 @@
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
     .places {
         width: calc(100% - 32px);
         margin: 64px 16px 0;

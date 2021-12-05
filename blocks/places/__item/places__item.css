@@ -6,7 +6,7 @@
     grid-template-areas:
         "title url"
         "image descr";
-    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 
@@ -23,7 +23,7 @@
     .places__item {
         grid-template-columns: 340px 1fr;
         gap: 48px 28px;
-        margin-top: 73px;
+        margin-bottom: 73px;
 
     }
 
@@ -37,7 +37,7 @@
             "url"
             "image"
             "descr";
-        margin-top: 50px;
+        margin-bottom: 50px;
         gap: 32px;
     }
 }

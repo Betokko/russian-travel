@@ -6,11 +6,6 @@
     flex-direction: column;
 }
 
-@media (max-width: 1279px) {
-    .hero {
-    }
-}
-
 @media (max-width: 767px) {
     .hero {
         box-sizing: border-box;

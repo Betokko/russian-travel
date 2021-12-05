@@ -7,7 +7,7 @@
     text-decoration: none;
     color: #fff;
     box-sizing: border-box;
-    padding: 16px;
+    padding: 245px 16px;
     position: relative;
 }
 
@@ -27,4 +27,22 @@
 
 .cover__link:hover::before {
     opacity: .8;
+}
+
+@media (max-width: 1279px) {
+    .cover__link {
+        padding: 195px 16px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cover__link {
+        padding: 115px 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cover__link {
+        padding: 33px 16px;
+    }
 }
