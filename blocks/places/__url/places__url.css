@@ -1,10 +1,7 @@
 .places__url {
     grid-area: url;
     align-self: end;
-    font-size: 12px;
-    line-height: 12px;
-    color: #aaa;
-    max-height: 46px;
+
 }
 
 
